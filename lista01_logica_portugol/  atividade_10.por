@@ -8,6 +8,6 @@ programa {
         contador++
       }
     }
-    escreva("Você escreveu ", contador, " numeros positivos")
+    escreva("VocÃª escreveu ", contador, " numeros positivos")
   }
 }
