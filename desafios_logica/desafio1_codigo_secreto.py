@@ -7,4 +7,6 @@ for i in range(num1, num2+1):
     total += i
   elif i % 5 == 0:
     total -= i
+  elif i % 3 == 0 and i % 5 == 0:
+    continue
 print("Valor total:", total)
