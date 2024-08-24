@@ -23,6 +23,9 @@ print("Sua cartela: ", end="")
 imprime_cartela(cartela)
 
 while(1):
+  if (len(cartela) == 0):
+    break
+  contador += 1
   num_sorteado = random.choice(cartela)
   print("Tente adivinhar o numero sorteado: ", end="")
   while(1):
@@ -32,9 +35,6 @@ while(1):
     else:
       break
   cartela.remove(num_sorteado)
-  if len(cartela) == 1:
-    break
   print("Voce acertou! Numeros restantes na cartela: ", end="")
   imprime_cartela(cartela)
-  contador += 1
 print("Parabens! Você concluiu sua cartela em", contador, "sorteios")
