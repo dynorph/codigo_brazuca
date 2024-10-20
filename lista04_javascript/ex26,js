@@ -1,0 +1,7 @@
+function contemSubstring(str, substr) {
+    return str.includes(substr);
+}
+
+let str = "Ola, mundo!";
+let substr = "mundo";
+console.log(contemSubstring(str,substr));
