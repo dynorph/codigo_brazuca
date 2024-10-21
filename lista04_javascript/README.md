@@ -1,1 +1,1 @@
-Resolução de exercícios de JavaScript
+Resolução de exercícios de JavaScript - Código Brazuca
